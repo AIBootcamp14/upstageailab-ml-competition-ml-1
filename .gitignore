@@ -1,0 +1,39 @@
+# 개인 키 파일 (절대 깃허브에 올리면 안 됨!)
+*.pem
+*.ppk
+
+# 모델 학습 결과물 및 임시 파일
+*.pkl
+*.h5
+output.csv
+saved_model.pkl
+
+# Jupyter Notebook 체크포인트
+.ipynb_checkpoints/
+
+# 데이터 파일 (원본 데이터는 보통 올리지 않음, 용량 문제)
+*.csv
+*.tsv
+*.xls
+*.xlsx
+
+# 압축 파일
+*.tar
+*.zip
+*.gz
+*.rar
+
+# 파이썬 관련 임시 파일 및 환경
+__pycache__/
+*.pyc
+.pytest_cache/
+.mypy_cache/
+.venv/
+venv/
+
+# VS Code 관련
+.vscode/
+
+# 운영체제 관련 임시 파일
+.DS_Store
+Thumbs.db
