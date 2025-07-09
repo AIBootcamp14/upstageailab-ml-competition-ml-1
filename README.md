@@ -1,11 +1,17 @@
 # Title (Please modify the title)
 
 ## Team
+   
+| ![](https://avatars.githubusercontent.com/u/156163982?v=4) | <img src="./project1/me.jpg" alt="내 사진" width="140px"> | ![](https://avatars.githubusercontent.com/u/156163982?v=4) | ![](https://avatars.githubusercontent.com/u/156163982?v=4) |
+| :--------------------------------------------------------------: | :--------------------------------------------------------------: | :--------------------------------------------------------------: | :--------------------------------------------------------------: |
+| [김시진](https://github.com/UpstageAILab) | [김영](https://github.com/kimyoung9689) | [정예은](https://github.com/UpstageAILab) | [전수정](https://github.com/UpstageAILab) |
+| 팀장, 담당 역할 | 담당 역할 | 담당 역할 | 담당 역할 |
 
-| ![김시진](https://avatars.githubusercontent.com/u/156163982?v=4) | ![김영]!<img src="./project1/me.jpg" alt="내 사진" width="140px"> | ![정예은](https://avatars.githubusercontent.com/u/156163982?v=4) | ![전수정](https://avatars.githubusercontent.com/u/156163982?v=4) | 
-| :--------------------------------------------------------------: | :--------------------------------------------------------------: | :--------------------------------------------------------------: | :--------------------------------------------------------------: | :--------------------------------------------------------------: |
-|            [김시진](https://github.com/UpstageAILab)             |            [김영](https://github.com/kimyoung9689)             |            [정예은](https://github.com/UpstageAILab)             |            [전수정](https://github.com/UpstageAILab)             |            
-                            팀장, 담당 역할                             |                            담당 역할                             |                            담당 역할                             |                            담당 역할                             |                            담당 역할                             |
+
+
+
+
+
 
 ## 1. Competiton Info
 
