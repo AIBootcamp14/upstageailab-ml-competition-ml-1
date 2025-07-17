@@ -12,10 +12,8 @@ saved_model.pkl
 .ipynb_checkpoints/
 
 # 데이터 파일 (원본 데이터는 보통 올리지 않음, 용량 문제)
-*.csv
 *.tsv
 *.xls
-*.xlsx
 
 # 압축 파일
 *.tar
