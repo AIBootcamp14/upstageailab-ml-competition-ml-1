@@ -11,7 +11,7 @@
 
 
 
-## 1. Competiton Info
+## 1. Competition Info
 
 ### Overview
 
