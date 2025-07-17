@@ -1,39 +1,63 @@
-# 개인 키 파일 (절대 깃허브에 올리면 안 됨!)
+# 개인 및 보안 관련 파일
 *.pem
 *.ppk
+*.key
+*.env
+.env.local
+.flaskenv
+.aws/
+credentials.json
+config.json
+secrets.yaml
 
-# 모델 학습 결과물 및 임시 파일
+# 모델 학습 결과물 및 대용량 파일
 *.pkl
 *.h5
+*.onnx
+*.pt
+*.bin
+model_weights/
+output/
 output.csv
+results/
 saved_model.pkl
+checkpoints/
 
-# Jupyter Notebook 체크포인트
-.ipynb_checkpoints/
-
-# 데이터 파일 (원본 데이터는 보통 올리지 않음, 용량 문제)
+# 대용량 데이터 파일
 *.csv
 *.tsv
 *.xls
 *.xlsx
+*.feather
+*.parquet
+data/
+raw_data/
 
-# 압축 파일
-*.tar
-*.zip
-*.gz
-*.rar
+# 임시 및 로그 파일
+*.log
+*.tmp
+tmp/
+temp/
 
-# 파이썬 관련 임시 파일 및 환경
+# 파이썬 관련 임시 파일 및 가상 환경
 __pycache__/
 *.pyc
 .pytest_cache/
 .mypy_cache/
 .venv/
 venv/
+env/
+build/
+dist/
+*.egg-info/
+.ipynb_checkpoints/
 
-# VS Code 관련
+# IDE 관련 파일
 .vscode/
+.idea/
+*.iml
 
 # 운영체제 관련 임시 파일
 .DS_Store
 Thumbs.db
+Desktop.ini
