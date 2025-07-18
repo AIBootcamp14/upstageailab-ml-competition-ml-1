@@ -1,4 +1,4 @@
-# Title (Please modify the title)
+# Building a Prediction Model for Seoul Apartment Actual Transaction Prices
 
 ## Team
    
@@ -20,11 +20,11 @@
 ### Timeline
 
 - 2025년 7월 7일 - 프로젝트 시작
-- 2025년 7월 18일 - 최종 모델 제출 마감일
+- 2025년 7월 17일 - 최종 모델 제출 마감일
 
 ### Evaluation
 
-- 모델의 성능은 **RMSE (Root Mean Squared Error)**를 기준으로 평가됩니다. RMSE는 예측값과 실제값 사이의 오차 크기를 나타내며, 값이 낮을수록 모델의 예측 정확도가 높음을 의미합니다. 이 지표를 통해 모델의 예측 오차를 정량적으로 측정하고 성능을 비교합니다.
+- 모델의 성능은 RMSE (Root Mean Squared Error)를 기준으로 평가됩니다. RMSE는 예측값과 실제값 사이의 오차 크기를 나타내며, 값이 낮을수록 모델의 예측 정확도가 높음을 의미합니다. 이 지표를 통해 모델의 예측 오차를 정량적으로 측정하고 성능을 비교합니다.
 
 
 
@@ -125,17 +125,13 @@ processed_서울시등고선_5000(geodata) (등고선 데이터)
 ### Leader Board
 
 평가 지표: RMSE
-- 28445.3385
-
-### Presentation
-
-- 수정님 작성 완료 후 기입 예정
+- 23808.6398
 
 ## etc
 
-### Meeting Log
-
-- _Insert your meeting log link like Notion or Google Docs_
-
 ### Reference
-- 한꺼번에 기입 예정
+국채/gdp - 국가통계포털(KOSIS)
+
+기준금리 - 한국은행경제통계시스템(ECOS)
+
+그 외 데이터- 서울열린데이터광장
