@@ -1,0 +1,111 @@
+현재 작업 디렉토리: /root/AIBootcamp14-ml-project1-kimyoung9689-fork/project1
+데이터 디렉토리: /root/AIBootcamp14-ml-project1-kimyoung9689-fork/project1/data
+--- 지리적 피처 EDA 스크립트 시작 ---
+'data/train5.csv' 파일 로드 중...
+'data/processed_academy.csv' 파일 로드 중...
+'data/processed_traffic.csv' 파일 로드 중...
+'data/bus_feature.csv' 파일 로드 중...
+'data/subway_feature.csv' 파일 로드 중...
+EDA용 등고선 파일 'processed_서울시경사도5000(geodata)_KNN보간.csv' 로드 중...
+새로운 지리적 피처 생성 중...
+모든 지리적 피처 생성 완료.
+
+--- 생성된 피처 EDA 시작 ---
+총 44개의 숫자형 피처를 분석할게.
+
+새롭게 생성된 지리적 피처 (21개):
+ - academy_500m
+ - academy_1km
+ - academy_access
+ - traffic_impact
+ - traffic_count_1km
+ - bus_min_dist
+ - bus_200m
+ - bus_500m
+ - bus_access
+ - subway_min_dist
+ - subway_1km
+ - subway_2km
+ - subway_access
+ - elevation_range
+ - elevation_std
+ - terrain_type
+ - seoul_center_dist
+ - gangnam_dist
+ - hongdae_dist
+ - jamsil_dist
+ - yeouido_dist
+
+--- 새로운 피처 통계 요약 ---
+                       count           mean           std       min  \
+academy_500m       1118822.0       0.000000      0.000000  0.000000   
+academy_1km        1118822.0       0.000000      0.000000  0.000000   
+academy_access     1118822.0       1.860354      0.014263  0.000000   
+traffic_impact     1118822.0  137230.807255  36578.137250  0.000000   
+traffic_count_1km  1118822.0      60.581194     83.045831  0.000000   
+bus_min_dist       1118822.0       0.004718      0.617804  0.000000   
+bus_200m           1118822.0       1.662760      1.613299  0.000000   
+bus_500m           1118822.0       9.375768      4.720462  0.000000   
+bus_access         1118822.0   60751.156937   9675.419361  0.000000   
+subway_min_dist    1118822.0       0.008687      0.616482  0.000000   
+subway_1km         1118822.0       2.704756      1.892622  0.000000   
+subway_2km         1118822.0       9.583913      4.971273  0.000000   
+subway_access      1118822.0    6412.647001    999.865698  0.000000   
+elevation_range    1118822.0      43.611053     40.646206  0.000000   
+elevation_std      1118822.0      15.281881     15.716671  0.000000   
+terrain_type       1118822.0       1.872240      0.836214  1.000000   
+seoul_center_dist  1118822.0       0.105840      0.619322  0.006639   
+gangnam_dist       1118822.0       0.118291      0.620371  0.001573   
+hongdae_dist       1118822.0       0.120930      0.620452  0.002317   
+jamsil_dist        1118822.0       0.139635      0.622597  0.001397   
+yeouido_dist       1118822.0       0.123118      0.621030  0.000740   
+
+                             25%            50%            75%            max  
+academy_500m            0.000000       0.000000       0.000000       0.000000  
+academy_1km             0.000000       0.000000       0.000000       0.000000  
+academy_access          1.853319       1.860425       1.868314       2.090797  
+traffic_impact     108482.232843  134105.412164  163474.361388  299821.738548  
+traffic_count_1km       5.000000      31.000000      83.000000     824.000000  
+bus_min_dist            0.000931       0.001412       0.002104     126.330305  
+bus_200m                0.000000       1.000000       2.000000      11.000000  
+bus_500m                6.000000       9.000000      12.000000      33.000000  
+bus_access          53468.401266   61384.584873   68516.275389   80007.035028  
+subway_min_dist         0.003303       0.004848       0.006972     126.032478  
+subway_1km              1.000000       2.000000       4.000000      12.000000  
+subway_2km              6.000000       9.000000      12.000000      33.000000  
+subway_access        5627.236473    6304.067178    7041.705521   10435.082328  
+elevation_range        20.000000      35.000000      55.000000     335.000000  
+elevation_std           5.994789      11.162857      18.666481     138.197097  
+terrain_type            1.000000       2.000000       2.000000       5.000000  
+seoul_center_dist       0.073499       0.105766       0.129206     126.537598  
+gangnam_dist            0.080850       0.119385       0.152586     126.592958  
+hongdae_dist            0.073501       0.109383       0.163610     126.483962  
+jamsil_dist             0.081141       0.136213       0.192796     126.663648  
+yeouido_dist            0.065605       0.117646       0.177012     126.488197  
+
+--- 타겟 변수 'target'와의 상관관계 (새로운 피처) ---
+target               1.000000
+subway_access        0.301486
+subway_2km           0.215882
+subway_1km           0.167013
+academy_access       0.090640
+bus_access           0.008492
+bus_min_dist        -0.002138
+subway_min_dist     -0.003030
+hongdae_dist        -0.003553
+seoul_center_dist   -0.009808
+yeouido_dist        -0.010208
+jamsil_dist         -0.033833
+gangnam_dist        -0.036441
+traffic_impact      -0.098981
+bus_200m            -0.109749
+elevation_std       -0.151754
+traffic_count_1km   -0.152370
+terrain_type        -0.157749
+elevation_range     -0.159152
+bus_500m            -0.172080
+academy_500m              NaN
+academy_1km               NaN
+Name: target, dtype: float64
+
+--- 타겟 변수와 상관관계 높은 상위 5개 피처 분포 시각화 ---
