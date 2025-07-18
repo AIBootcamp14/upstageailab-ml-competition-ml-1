@@ -5,7 +5,7 @@
 | <img src="./project1/team_photos/시진님.jpg" alt="김시진사진" width="140px"> | <img src="./project1/team_photos/me.jpg" alt="김영사진" width="140px"> | <img src="./project1/team_photos/예은님.jpg" alt="정예은사진" width="140px"> | <img src="./project1/team_photos/수정님.jpg" alt="전수정사진" width="140px"> |
 | :--------------------------------------------------------------: | :--------------------------------------------------------------: | :--------------------------------------------------------------: | :--------------------------------------------------------------: |
 | [김시진](https://github.com/kimsijin33) | [김영](https://github.com/kimyoung9689) | [정예은](https://github.com/wjddpdms03) | [전수정](https://github.com/pochacco0603) |
-| 팀장, Feature Engineering | Feature Engineering | Feature Engineering | Feature Engineering |
+| 팀장, 데이터 분석, 모델 학습, Feature Engineering | 데이터 전처리, 모델링, Feature Engineering | Feature Engineering | Feature Engineering |
 
 
 
