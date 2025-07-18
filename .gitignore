@@ -17,7 +17,6 @@ saved_model.pkl
 
 # 압축 파일
 *.tar
-*.zip
 *.gz
 *.rar
 
