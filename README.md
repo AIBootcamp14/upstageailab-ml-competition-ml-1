@@ -32,7 +32,25 @@
 
 ### Directory
 
-- 최종 수정 후 기입 예정
+├── Reference Images/                   # 프로젝트 진행 중 참고했던 이미지 자료들
+├── data/                               # 원본 및 전처리된 데이터셋
+│   ├── data_collect/                   # 데이터 수집 관련 스크립트 및 원본 데이터 (예: passweak_area.zip)
+│   └── process_data_collect/           # 수집된 데이터를 전처리하는 스크립트 및 처리된 데이터
+├── eda/                                # 탐색적 데이터 분석(EDA) 스크립트 및 결과
+│   ├── results/                        # EDA 분석 결과물 (예: 시각화 이미지, 요약 파일)
+│   ├── __init__.py                     # (Python 패키지 초기화 파일)
+│   ├── eda_main.py                     # 주요 EDA 실행 스크립트
+│   ├── eda_utils.py                    # EDA 보조 함수 및 유틸리티 스크립트
+│   ├── geo_feature_engineering.py      # 지리적 특징 공학 관련 EDA 스크립트
+│   └── visualization.py                # EDA 시각화 관련 스크립트
+├── model/                              # 모델 파이프라인 및 학습 코드
+├── project1/                           # 특정 프로젝트(project1)의 EDA 결과 및 팀 사진
+│   └── team_photos/                    # 팀원 사진
+├── .gitignore                          # Git 버전 관리에서 제외할 파일 및 폴더 목록
+├── README.md                           # 프로젝트 개요 및 설명 (현재 보고 계신 파일)
+├── main_pipeline.py                    # 메인 데이터 처리 및 모델링 파이프라인 스크립트
+└── requirements.txt                    # 프로젝트 실행에 필요한 모든 Python 라이브러리 및 패키지 목록
+
 
 ## 3. Data descrption
 
